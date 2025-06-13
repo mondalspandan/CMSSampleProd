@@ -2,6 +2,7 @@
 HTCondor based production of CMS MC samples, from LHE to Nano.
 
 Currently `cmsDrive_commands_2017.sh` contains commands suitable for UL2017.
+Update: `cmsDrive_commands_2023BPix.sh` contains example for 2023BPix. `el8_wrapper` wraps commands in `cmssw-el8`.
 
 1. Place your Pythia fragments inside `Configuration/GenProduction/python/`. Each of them must contain the absolute path to the gridpack (L4). Some examples are included (gridpacks not included).
 
